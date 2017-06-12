@@ -98,6 +98,45 @@ img {
 	display: inline-block;
 }
 
+form label, #prenom, #nom, #mail {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+form label {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+form textarea {
+	display: block;
+	width: 90%;
+    margin: 0 auto;
+    border: none;
+    padding: 7px;
+    font-family: arial;
+}
+
+#prenom, #nom, #mail {
+	border: none;
+	height: 35px;
+	padding: 7px;
+}
+#prenom:focus, #nom:focus, #mail:focus, form textarea {
+	outline: none;
+}
+
+
+footer {
+	background-color: #004571;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	margin-top: 20px;
+}
+
 
 @media only screen and (min-width : 1224px){
 .header-title {
@@ -126,5 +165,32 @@ img {
     width: auto;
     margin: 0 0;
 }
+
+.contact-title {
+	margin-bottom: 10px;
+}
+
+#prenom, #nom, #mail, form textarea {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+form {
+	width: 52%;
+	margin: 0 auto;
+	text-align: right;
+}
+
+#prenom, #nom, #mail, form textarea {
+	width: 70%;
+}
+
+form label {
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 
 }
