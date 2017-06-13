@@ -1,12 +1,11 @@
 * {
-	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #272727;
 	background-color: #eeeeee;
+	margin: 0;
 }
 img {
 	height:auto;
@@ -128,6 +127,10 @@ form textarea {
 	outline: none;
 }
 
+.form-element {
+	margin-bottom: 15px;
+}
+
 
 footer {
 	background-color: #004571;
@@ -184,12 +187,13 @@ form {
 
 #prenom, #nom, #mail, form textarea {
 	width: 70%;
+	text-align: left;
 }
 
 form label {
 	text-align: right;
-	display: inline-block;
 	vertical-align: middle;
+	width: auto;
 }
 
 
