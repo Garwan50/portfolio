@@ -22,16 +22,17 @@ img {
 .header-title {
 	text-transform: uppercase;
 
-	width: 230px;
+	width: 222px;
 	margin: 0 auto;
 }
 
 .header-list {
 	display: block;
-	font-size: 30px;
+	font-size: 20px;
 
-	width: 254px;
+	width: 169px;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .header-item {
@@ -97,6 +98,10 @@ img {
 	display: inline-block;
 }
 
+form {
+	text-align: center;
+}
+
 form label, #prenom, #nom, #mail {
 	width: 90%;
 	margin: 0 auto;
@@ -131,6 +136,18 @@ form textarea {
 	margin-bottom: 15px;
 }
 
+.button-submit {
+	border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+.button-submit:focus {
+	outline: none;
+}
+
 
 footer {
 	background-color: #004571;
@@ -138,6 +155,10 @@ footer {
 	padding: 20px;
 	color: white;
 	margin-top: 20px;
+}
+
+.small {
+	font-size: 11px;
 }
 
 
@@ -179,15 +200,24 @@ footer {
 	vertical-align: middle;
 }
 
+.form-element-text {
+	width: 140px;
+}
+
 form {
-	width: 52%;
+	width: 80%;
 	margin: 0 auto;
-	text-align: right;
+	text-align: center;
+	min-width: 465px;
 }
 
 #prenom, #nom, #mail, form textarea {
-	width: 70%;
+	width: calc(100% - 140px);
 	text-align: left;
+}
+form textarea {
+	min-width: calc(100% - 140px);
+	max-width: calc(100% - 140px);
 }
 
 form label {
@@ -195,6 +225,19 @@ form label {
 	vertical-align: middle;
 	width: auto;
 }
+}
 
-
+@media only screen and (max-width : 600px){
+	.container {
+		width: 98%;
+	}
+	form {
+		width: 100%;
+	}
+	form label, #prenom, #nom, #mail {
+		width: 100%;
+	}
+	form textarea {
+		width: 100%;
+	}
 }
