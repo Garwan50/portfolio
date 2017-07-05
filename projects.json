@@ -20,7 +20,7 @@
 	"3" : {
 		"name" : "Flappy Bird",
 		"description" : "Deuxième petit jeu toujours sur Game Maker Studio, je souhaitais travailler sur la gravité, et j'ai trouvé ce projet interessant à ce niveau là, le jeu n'est pas encore très aboutti mais reste fonctionnel.",
-		"features" : { "0" : "Gravité de l'oiseau.", "1" : "Gestion des collisions", "2" : "Sans framework."},
+		"features" : { "0" : "Gravité de l'oiseau.", "1" : "Gestion des collisions"},
 		"img" : { "0" : "flappy1.png"}
 	}
 }

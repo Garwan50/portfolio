@@ -199,6 +199,10 @@ footer {
     margin: 0 0;
 }
 
+.portfolio-text-container {
+	min-height: 250px;
+}
+
 .contact-title {
 	margin-bottom: 10px;
 }
