@@ -9,18 +9,18 @@
 		"name" : "Asteroid",
 		"description" : "Premier jeu video réalisé grâce au programme Game Maker Studio, en C++, apprentissage d'une logique de programmation différente, orienté objet. Le joueur contrôle un vaisseau et a pour objectif de détruire les astéroides.",
 		"features" : { "0" : "Acceleration du vaisseau.", "1" : "Difficulté croissante", "2" : "Bonus et pickups.", "3" : "Plusieurs vies."},
-		"img" : { "0" : "image.png", "1" : "image2.png"}
+		"img" : { "0" : "asteroid1.png", "1" : "asteroid2.png"}
 	},
 	"2" : {
 		"name" : "Ce site",
 		"description" : "Réalisé en html, css, javascript et php, pas de framework utilisé, j'avais besoin d'un support pour montrer mes réalisation, mon travail, j'ai souhaité implémenter javascript pour rendre la navigation plus facile, le php gère le formulaire de contact, avec envoi de mail.",
 		"features" : { "0" : "Serveur SMTP.", "1" : "Navigation entre les items interactive.", "2" : "Sans framework."},
-		"img" : { "0" : "image.png", "1" : "image2.png"}
+		"img" : { "0" : "site1.png"}
 	},
 	"3" : {
 		"name" : "Flappy Bird",
 		"description" : "Deuxième petit jeu toujours sur Game Maker Studio, je souhaitais travailler sur la gravité, et j'ai trouvé ce projet interessant à ce niveau là, le jeu n'est pas encore très aboutti mais reste fonctionnel.",
 		"features" : { "0" : "Gravité de l'oiseau.", "1" : "Gestion des collisions", "2" : "Sans framework."},
-		"img" : { "0" : "image.png", "1" : "image2.png"}
+		"img" : { "0" : "flappy1.png"}
 	}
 }

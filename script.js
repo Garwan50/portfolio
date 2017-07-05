@@ -60,7 +60,7 @@ xhr.onreadystatechange = function()
         }
     }
 };
-xhr.open("GET", 'projects.json?a=a', true);
+xhr.open("GET", 'projects.json?a=b', true);
 xhr.send();
 
 function addEventCustom(img, i, item, description, image) {

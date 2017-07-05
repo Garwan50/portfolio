@@ -9,7 +9,7 @@ body {
 }
 img {
 	height:auto;
-	max-width: 100%;
+	max-height: 200px;
 }
 
 .header {
@@ -86,6 +86,7 @@ img {
 #portfolio-other-images-container {
 	vertical-align: middle;
 	text-align: center;
+	width: 100%;
 }
 
 .arrow {
@@ -99,7 +100,6 @@ img {
 }
 
 #portfolio-images-container img {
-	width: 200px;
 	padding: 2px;
 }
 
@@ -235,10 +235,10 @@ form label {
 	width: auto;
 }
 img {
-	max-width: 400px;
+	max-height: 250px;
 }
 #portfolio-images-container img {
-	max-width: 250px;
+	height: 150px;
 }
 }
 
