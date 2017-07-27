@@ -156,6 +156,13 @@ form textarea {
 .button-submit:focus {
 	outline: none;
 }
+.button-submit:active {
+	text-decoration: underline;
+}
+
+#errors {
+	color: red;
+}
 
 
 footer {
