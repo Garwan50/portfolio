@@ -2,6 +2,14 @@ var submit = document.getElementById("button-submit");
 var errors = document.getElementById("errors");
 submit.addEventListener("click", function(element) {
     element.preventDefault();
+    submit.disabled = true;
+    var button = document.getElementById("button-submit");
+    var div = document.createElement("div");
+    div.classList.add("circle");
+    button.parentElement.insertBefore(div, button);
+    div = document.createElement("div");
+    div.classList.add("innercircle");
+    button.parentElement.insertBefore(div, button);
     var xhr2 = new XMLHttpRequest();
     xhr2.onreadystatechange = function()
     {
@@ -16,6 +24,9 @@ submit.addEventListener("click", function(element) {
                     str += element[1] + "<br>";
                 });
                 errors.innerHTML = str;
+                document.querySelector(".circle").parentElement.removeChild(document.querySelector(".circle"));
+                document.querySelector(".innercircle").parentElement.removeChild(document.querySelector(".innercircle"));
+                submit.disabled = false;
             }
         }
     }
